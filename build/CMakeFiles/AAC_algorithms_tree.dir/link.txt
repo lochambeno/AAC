@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/AAC_algorithms_tree.dir/src/main_tree.cpp.o CMakeFiles/AAC_algorithms_tree.dir/src/huffman.cpp.o CMakeFiles/AAC_algorithms_tree.dir/src/tree.cpp.o -o AAC_algorithms_tree  -lstdc++ -lm 

@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o CMakeFiles/AAC_algorithms_test.dir/test/AAC_algorithms_test.cpp.o CMakeFiles/AAC_algorithms_test.dir/src/huffman.cpp.o CMakeFiles/AAC_algorithms_test.dir/src/tree.cpp.o -o AAC_algorithms_test  -lstdc++ -lm 

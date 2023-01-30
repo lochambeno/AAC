@@ -1,0 +1,5 @@
+/home/darkeat/Documents/AAC/AAC/build/CMakeFiles/AAC_algorithms_tree.dir
+/home/darkeat/Documents/AAC/AAC/build/CMakeFiles/AAC_algorithms_huffman.dir
+/home/darkeat/Documents/AAC/AAC/build/CMakeFiles/AAC_algorithms_test.dir
+/home/darkeat/Documents/AAC/AAC/build/CMakeFiles/edit_cache.dir
+/home/darkeat/Documents/AAC/AAC/build/CMakeFiles/rebuild_cache.dir
