@@ -184,7 +184,14 @@ CMakeFiles/AAC_algorithms_tree.dir/src/huffman.cpp.o: ../src/huffman.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/bits/uses_allocator.h
 
 CMakeFiles/AAC_algorithms_tree.dir/src/main_tree.cpp.o: ../src/main_tree.cpp \
   /usr/include/stdc-predef.h
@@ -241,6 +248,12 @@ CMakeFiles/AAC_algorithms_tree.dir/src/tree.cpp.o: ../src/tree.cpp \
 
 
 ../src/main_tree.cpp:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -353,6 +366,8 @@ CMakeFiles/AAC_algorithms_tree.dir/src/tree.cpp.o: ../src/tree.cpp \
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/bits/stl_queue.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
@@ -496,6 +511,8 @@ CMakeFiles/AAC_algorithms_tree.dir/src/tree.cpp.o: ../src/tree.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
+/usr/include/c++/11/queue:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
@@ -509,6 +526,8 @@ CMakeFiles/AAC_algorithms_tree.dir/src/tree.cpp.o: ../src/tree.cpp \
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/c++/11/deque:
 
 /usr/include/c++/11/ios:
 
@@ -553,6 +572,8 @@ CMakeFiles/AAC_algorithms_tree.dir/src/tree.cpp.o: ../src/tree.cpp \
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/c++/11/iostream:
 

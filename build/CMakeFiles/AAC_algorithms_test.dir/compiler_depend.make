@@ -184,7 +184,14 @@ CMakeFiles/AAC_algorithms_test.dir/src/huffman.cpp.o: ../src/huffman.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/bits/uses_allocator.h
 
 CMakeFiles/AAC_algorithms_test.dir/src/tree.cpp.o: ../src/tree.cpp \
   /usr/include/stdc-predef.h \
@@ -810,10 +817,6 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 
 /usr/include/c++/11/bits/stl_stack.h:
 
-/usr/include/c++/11/bits/deque.tcc:
-
-/usr/include/c++/11/deque:
-
 /usr/include/c++/11/stack:
 
 /usr/include/c++/11/bits/stream_iterator.h:
@@ -884,6 +887,14 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 
 /usr/include/c++/11/fstream:
 
+/usr/include/c++/11/sstream:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/usr/include/signal.h:
+
+/usr/include/strings.h:
+
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
@@ -891,10 +902,6 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/numeric:
-
-/usr/include/signal.h:
-
-/usr/include/strings.h:
 
 /usr/include/c++/11/cstdlib:
 
@@ -938,15 +945,13 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/c++/11/bits/stl_deque.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
 /usr/include/c++/11/backward/binders.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/c++/11/algorithm:
 
@@ -987,6 +992,8 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/11/deque:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
@@ -1060,6 +1067,12 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 
 /usr/include/c++/11/debug/assertions.h:
 
+/usr/include/c++/11/cfloat:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+../src/tree.cpp:
+
 /usr/include/c++/11/cstdint:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
@@ -1075,10 +1088,6 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/11/streambuf:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
@@ -1161,6 +1170,12 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/c++/11/bits/stl_queue.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -1336,6 +1351,16 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 
 /usr/include/c++/11/bits/istream.tcc:
 
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
 /usr/include/c++/11/iostream:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
@@ -1358,13 +1383,13 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 
 /usr/include/c++/11/bits/regex.h:
 
+/usr/include/c++/11/queue:
+
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/11/memory:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
 
 /usr/include/c++/11/bits/regex_compiler.tcc:
 
@@ -1375,10 +1400,6 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 /usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -1429,13 +1450,3 @@ CMakeFiles/AAC_algorithms_test.dir/test/catch.cpp.o: ../test/catch.cpp \
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-../src/tree.cpp:
-
-/usr/include/c++/11/cfloat:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
-
-/usr/include/c++/11/sstream:
