@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/darkeat/Documents/AAC/AAC/src
 
-CXX_FLAGS = -std=gnu++14 -Wall -pedantic 
+CXX_FLAGS = -std=gnu++14 -g -Wall -pedantic 
 

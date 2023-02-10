@@ -188,4 +188,8 @@ CMakeFiles/AAC_algorithms_test.dir/test/AAC_algorithms_test.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h \
- /home/darkeat/Documents/AAC/AAC/src/tree.hpp
+ /home/darkeat/Documents/AAC/AAC/src/tree.hpp \
+ /home/darkeat/Documents/AAC/AAC/src/huffman.hpp \
+ /home/darkeat/Documents/AAC/AAC/src/tree.hpp \
+ /usr/include/c++/11/iostream /usr/include/c++/11/istream \
+ /usr/include/c++/11/bits/istream.tcc
