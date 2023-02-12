@@ -190,6 +190,13 @@ CMakeFiles/AAC_algorithms_test.dir/test/AAC_algorithms_test.cpp.o: \
  /usr/include/c++/11/bits/stl_numeric.h \
  /home/darkeat/Documents/AAC/AAC/src/tree.hpp \
  /home/darkeat/Documents/AAC/AAC/src/huffman.hpp \
+ /usr/include/c++/11/queue /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
+ /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/stack \
+ /usr/include/c++/11/bits/stl_stack.h \
  /home/darkeat/Documents/AAC/AAC/src/tree.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc

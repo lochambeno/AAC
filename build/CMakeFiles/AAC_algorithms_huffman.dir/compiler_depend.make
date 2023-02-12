@@ -191,7 +191,20 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/huffman.cpp.o: ../src/huffman.cpp \
   /usr/include/c++/11/bits/deque.tcc \
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_queue.h \
-  /usr/include/c++/11/bits/uses_allocator.h
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h
 
 CMakeFiles/AAC_algorithms_huffman.dir/src/main_huffman.cpp.o: ../src/main_huffman.cpp \
   /usr/include/stdc-predef.h
@@ -381,6 +394,16 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
   /usr/include/c++/11/bits/istream.tcc
 
 
+/usr/include/c++/11/bits/stl_stack.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/array:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
 /usr/include/c++/11/bits/uses_allocator.h:
 
 /usr/include/c++/11/bits/stl_heap.h:
@@ -437,6 +460,8 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
+/usr/include/c++/11/utility:
+
 /usr/include/errno.h:
 
 /usr/include/c++/11/cerrno:
@@ -455,11 +480,15 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
+/usr/include/c++/11/ext/aligned_buffer.h:
+
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/c++/11/vector:
+
+/usr/include/c++/11/stack:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -472,6 +501,8 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 /usr/include/c++/11/string:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/c++/11/map:
 
 /usr/include/c++/11/bits/range_access.h:
 
@@ -523,6 +554,8 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
+/usr/include/c++/11/bits/invoke.h:
+
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/11/bits/exception_ptr.h:
@@ -546,6 +579,8 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/stl_multimap.h:
 
 /usr/include/features.h:
 
@@ -594,6 +629,10 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/type_traits:
 
