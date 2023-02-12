@@ -15,10 +15,10 @@ Dans src/tree.hpp
 ### Node
 En termes de structure de données, les feuilles et les noeuds ne sont pas dissociés, il n'y a que la classe *Node*. Chaque noeud possède un caractère et son nombre d'apparitions, un fils gauche et un fils droit.
 
-La classe ne propose que des méthodes getter,setter, des constructeurs et une surcharge de l'opérateur inférieur qui test le nombre d'apparitions des deux noeuds.
+La classe ne propose que des méthodes getter,setter, des constructeurs et une surcharge de l'opérateur inférieur qui teste le nombre d'apparitions des deux noeuds.
 
 ### Tree
-La classe *Tree* permet de différentier un arbre de Fenwick d'un simple noeud bien qu'il ne soit constitué que d'un pointeur vers un noeud.
+La classe *Tree* permet de différentier un arbre d'un simple noeud bien qu'il ne soit constitué que d'un pointeur vers un noeud.
 
 La classe ne propose que des constructeurs, un getter sur le noeud à la racine et deux méthodes d'affichage de l'arbre.
 
@@ -29,11 +29,11 @@ Seuls les algorithmes pour la génération de l'arbre ont été implémentés.
 
 ### *huffman_init()*
 
-La fonction *huffman_init()* crée une liste de noeuds à partir d'une chaîne de caractères. C'est un moyen simple de stocker de nouveaux les noeuds et de mettre à jour leur nombre d'apparition.
+La fonction *huffman_init()* crée une liste de noeuds à partir d'une chaîne de caractères. C'est un moyen simple de stocker de nouveaux noeuds et de mettre à jour leur nombre d'apparition.
 
 ### *huffman_tree()*
-Ensuite, cette liste de noeuds est envoyée à la fonction *huffman_tree()*. Là, elle est transformée en priority queue pour pouvoir facilement accéder aux noeuds triés par le nombre d'apparition des caractères, grace à la surcharge de l'opérateur inférieur.
+Ensuite, cette liste de noeuds est envoyée à la fonction *huffman_tree()*. Là, elle est transformée en *priority queue* pour pouvoir facilement accéder aux noeuds triés par le nombre d'apparition des caractères, grace à la surcharge de l'opérateur inférieur.
 
-Tant que cette queue n'est pas vide, on prend les deux premiers noeuds, les plus faibles. Ils sont associés en fils d'un nouveau noeud, puis ce nouveau noeud est inséré dans la priority queue avec un nombre d'apparition valant la somme de ses deux fils. Cela correspond à la future place dans l'arborescence.
+Tant que cette queue n'est pas vide, on prend les deux premiers noeuds, les plus faibles. Ils sont associés en fils d'un nouveau noeud, puis ce nouveau noeud est inséré dans la *priority queue* avec un nombre d'apparition valant la somme de ses deux fils. Cela correspond à la future place dans l'arborescence.
 
-L'arbre retourné correspond au dernier noeud de la priority queue, donc le père de tous les autres à la racine.
+L'arbre retourné correspond au dernier noeud de la *priority queue*, donc le père de tous les autres à la racine.
