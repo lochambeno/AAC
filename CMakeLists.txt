@@ -7,7 +7,7 @@ find_package ( Threads )
 
 # C++ Warning Level #-------------------------------------------------------------------------------
 if ( CMAKE_COMPILER_IS_GNUCXX )
- set ( CMAKE_CXX_FLAGS "-Wall -pedantic ${CMAKE_CXX_FLAGS}" )
+ set ( CMAKE_CXX_FLAGS "-g -Wall -pedantic ${CMAKE_CXX_FLAGS}" )
 endif ()
 
 # C++14 #-------------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ set ( AAC_HEADERS
 
 set ( AAC_SOURCES
       src/huffman.cpp
-      src/tree.hpp
+      src/tree.cpp
     )
 
 set ( AAC_HEADERS_TEST
