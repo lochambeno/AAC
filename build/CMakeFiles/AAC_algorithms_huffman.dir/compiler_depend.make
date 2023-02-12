@@ -155,6 +155,26 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/huffman.cpp.o: ../src/huffman.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/stl_queue.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/stack \
+  /usr/include/c++/11/bits/stl_stack.h \
   ../src/tree.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
@@ -184,27 +204,7 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/huffman.cpp.o: ../src/huffman.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/queue \
-  /usr/include/c++/11/deque \
-  /usr/include/c++/11/bits/stl_deque.h \
-  /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_queue.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/stack \
-  /usr/include/c++/11/bits/stl_stack.h
+  /usr/include/c++/11/bits/istream.tcc
 
 CMakeFiles/AAC_algorithms_huffman.dir/src/main_huffman.cpp.o: ../src/main_huffman.cpp \
   /usr/include/stdc-predef.h
@@ -394,22 +394,6 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
   /usr/include/c++/11/bits/istream.tcc
 
 
-/usr/include/c++/11/bits/stl_stack.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/array:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
-/usr/include/c++/11/bits/stl_deque.h:
-
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/c++/11/istream:
@@ -447,6 +431,22 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 /usr/include/c++/11/exception:
 
 /usr/include/c++/11/ostream:
+
+/usr/include/c++/11/bits/stl_stack.h:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/array:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
@@ -700,9 +700,9 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/c++/11/deque:
-
 /usr/include/c++/11/ios:
+
+/usr/include/c++/11/deque:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -746,9 +746,9 @@ CMakeFiles/AAC_algorithms_huffman.dir/src/tree.cpp.o: ../src/tree.cpp \
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
-/usr/include/c++/11/bits/deque.tcc:
-
 /usr/include/c++/11/iostream:
+
+/usr/include/c++/11/bits/deque.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
